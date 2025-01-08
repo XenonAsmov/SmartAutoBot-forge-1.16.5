@@ -23,14 +23,14 @@ Forge Bot is a mod designed for Minecraft 1.16.5, allowing users to execute pre-
 
 ### Primary Commands
 
-1. **`сек "time"`**: Sets a delay between commands.  
+1. **`сек "время"`**: Sets a delay between commands.  
    - Example: `сек 20` (20-second delay).
-   - Variants: `мин "time"` for minutes, `час "time"` for hours.
+   - Variants: `мин "время"` for minutes, `час "время"` for hours.
 
 2. **`чат "message"`**: Sends a message in chat.  
    - Example: `чат "/spawn"` (Sends "/spawn" in chat).
 
-3. **`повтори "count"`**: Repeats a set of commands a specified number of times.  
+3. **`повтори "количество"`**: Repeats a set of commands a specified number of times.  
    - Example:
      ``` 
      повтори 10 {
@@ -40,7 +40,7 @@ Forge Bot is a mod designed for Minecraft 1.16.5, allowing users to execute pre-
      ```
      (Repeats the chat and delay command 10 times).
 
-4. **`автовыход "blocks"`**: Automatically leaves the server if a player is within the specified block radius.  
+4. **`автовыход "количество блоков"`**: Automatically leaves the server if a player is within the specified block radius.  
    - Example: `автовыход 20` (Leaves if a player is within 20 blocks).
 
 5. **`атаковать "true|false"`**: Toggles attacking all entities.  
@@ -66,10 +66,10 @@ Forge Bot is a mod designed for Minecraft 1.16.5, allowing users to execute pre-
 7. **`присесть "true|false"`**: Toggles crouching.  
    - Similar logic to `атаковать` and `прыжок`.
 
-8. **`направо "degrees"`**: Rotates the view to the right by the specified degrees.  
+8. **`направо "количество градусов"`**: Rotates the view to the right by the specified degrees.  
    - Example: `направо 90` (Turns 90 degrees right).
 
-9. **`налево "degrees"`**: Rotates the view to the left by the specified degrees.  
+9. **`налево "количество градусов"`**: Rotates the view to the left by the specified degrees.  
    - Example: `налево 90` (Turns 90 degrees left).
 
 ## Support
