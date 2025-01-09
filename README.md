@@ -12,7 +12,7 @@ Forge Bot is a mod designed for Minecraft 1.16.5, allowing users to execute pre-
 
 ### Command Overview
 
-- **`.load "file_name"`**: Load a configuration file by its name (omit the `.txt` extension). This step is necessary each time you update the configuration file.
+- **`.load "file_name"`**: Load a configuration file in folder **`config`** by its name (omit the `.txt` extension). This step is necessary each time you update the configuration file.
 - **`.start`**: Begin executing the loaded commands.
 - **`.stop`**: Stop the execution of commands.
 
