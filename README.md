@@ -23,53 +23,53 @@ Forge Bot is a mod designed for Minecraft 1.16.5, allowing users to execute pre-
 
 ### Primary Commands
 
-1. **`СЕК "время"`**: Sets a delay between commands.  
-   - Example: `СЕК 20` (20-second delay).
-   - Variants: `МИН "время"` for minutes, `ЧАС "время"` for hours.
+1. **`сек "время"`**: Sets a delay between commands.  
+   - Example: `сек 20` (20-second delay).
+   - Variants: `мин "время"` for minutes, `час "время"` for hours.
 
 2. **`ЧАТ "message"`**: Sends a message in chat.  
    - Example: `ЧАТ "/spawn"` (Sends "/spawn" in chat).
 
-3. **`ПОВТОРИ "количество"`**: Repeats a set of commands a specified number of times.  
+3. **`повтори "количество"`**: Repeats a set of commands a specified number of times.  
    - Example:
      ``` 
-     ПОВТОРИ 10 {
-     ЧАТ "привет"
-     СЕК 2
+     повтори 10 {
+     чат "привет"
+     сек 2
      }
      ```
      (Repeats the chat and delay command 10 times).
 
-4. **`АВТОВЫХОД "количество блоков"`**: Automatically leaves the server if a player is within the specified block radius.  
-   - Example: `АВТОВЫХОД 20` (Leaves if a player is within 20 blocks).
+4. **`автовыход "количество блоков"`**: Automatically leaves the server if a player is within the specified block radius.  
+   - Example: `автовыход 20` (Leaves if a player is within 20 blocks).
 
-5. **`АТАКОВАТЬ "true|false"`**: Toggles attacking all entities.  
+5. **`атаковать "true|false"`**: Toggles attacking all entities.  
    - Example: 
      ```
-     АТАКОВАТЬ true
-     СЕК 20
-     АТАКОВАТЬ false
+     атаковать true
+     сек 20
+     атаковать false
      ```
      (Attacks for 20 seconds).
-   - Short form: `АТАКОВАТЬ 1` (true), `АТАКОВАТЬ 0` (false).
+   - Short form: `атаковать 1` (true), `атаковать 0` (false).
 
-6. **`ПРЫЖОК "true|false"`**: Toggles auto-jump.  
+6. **`прыжок "true|false"`**: Toggles auto-jump.  
    - Example: 
      ```
-     ПРЫЖОК true
+     прыжок true
      сек 30
-     ПРЫЖОК false
+     прыжок false
      ```
      (Jumps for 30 seconds).
-   - Short form: `ПРЫЖОК 1` (true), `ПРЫЖОК 0` (false).
+   - Short form: `прыжок 1` (true), `прыжок 0` (false).
 
-7. **`ПРИСЕСТЬ "true|false"`**: Toggles crouching.  
+7. **`присесть "true|false"`**: Toggles crouching.  
    - Similar logic to `АТАКОВАТЬ` and `ПРЫЖОК`.
 
-8. **`НАПРАВО "количество градусов"`**: Rotates the view to the right by the specified degrees.  
+8. **`направо "количество градусов"`**: Rotates the view to the right by the specified degrees.  
    - Example: `направо 90` (Turns 90 degrees right).
 
-9. **`НАЛЕВО "количество градусов"`**: Rotates the view to the left by the specified degrees.  
+9. **`налево "количество градусов"`**: Rotates the view to the left by the specified degrees.  
    - Example: `налево 90` (Turns 90 degrees left).
 
 ## Support
